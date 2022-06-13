@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from crak import expetmysite
+    from Cracker import expetmysite
 
     print("\n\n")
 
@@ -26,7 +26,7 @@ if bit == '64bit':
 
 elif bit == '32bit':
 
-    from crak import expetmysite
+    from Cracker import expetmysite
 
     print("\n Congratulations! Your device supported!\n")
 
